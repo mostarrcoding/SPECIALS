@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <title>SPECIALS</title>
+    </head>
+    <body>
+        <div class="verticalBarContainer">
+            <div class="verticalBar"></div>
+        </div>
+
+		<div class="horizontalBarContainer">
+			<div class="horizontalBar"></div>
+		</div>
+
+        <a href="#"><img class="banner" src="images/genericWebBanner2.png" width="600px" alt="www.imagineadv-webbanners.com > Generic Web Banner, Shop Now IN-STOCK Specials, purple" /></a>
+
+        <table class="main">
+            <tr class="dropdown" id="Catalog">
+                <th><a href="#">Catalog</a></label></th>
+                <td class="separator">></td>
+                <td class="item"><a href="#">1</a></td>
+                <td class="item"><a href="#">2</a></td>
+                <td class="item"><a href="#">3</a></td>
+            </tr>
+            <tr class="dropdown" id="Orders">
+                <th><a href="#">Orders</a></th>
+                <td class="separator">></td>
+                <td class="item"><a href="#">1</a></td>
+                <td class="item"><a href="#">2</a></td>
+                <td class="item"><a href="#">3</a></td>
+            </tr>
+            <tr class="dropdown" id="Purchase">
+                <th><a href="#">Purchase</a></th>
+                <td class="separator">></td>
+                <td class="item"><a href="#">1</a></td>
+                <td class="item"><a href="#">2</a></td>
+                <td class="item"><a href="#">3</a></td>
+            </tr>
+            <tr class="dropdown" id="Reviews">
+                <th><a href="#">Reviews</a></th>
+                <td class="separator">></td>
+                <td class="item"><a href="#">1</a></td>
+                <td class="item"><a href="#">2</a></td>
+                <td class="item"><a href="#">3</a></td>
+            </tr>
+            <tr class="dropdown" id="Contact">
+                <th><a href="#">Contact</a></th>
+                <td class="separator">></td>
+                <td colspan="3" class="item ticker boundary"><a href="mailto:starrtennis@gmail.com" class="ticker">starrtennis [at] gmail [dot] com</a></td>
+            </tr>
+        </table>
+
+        <form class="itemselect" action="" method="post">
+          <label for="itemname">Item Name: </label>
+          <input id="itemname" type="text" name="itemname" value="">
+        </form>
+
+        <div id="centerText"></div>
+
+        <script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="scripts/fetch.js"></script>
+        <script type="text/javascript">
+            declareFetchVariables("snippets/", "centerText", "page content");
+        </script>
+        <script type="text/javascript" src="scripts/clicks.js"></script>
+    </body>
+</html>
